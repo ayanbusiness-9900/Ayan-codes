@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d9f8ff;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+#Smit{
+    display: block;
+    margin: auto;
+}
+
+#form-container{
+    display: block;
+    height: 900px; 
+    width: 1300px;
+    margin: auto;  
+    padding: 20px;
+}
+
+#header{
+    display: flex;
+    padding: 10px 10px 10px 10px;
+}
+
+#User{
+    height: 30px;
+    width: 30px;
+}
+
+h1{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 40px;
+}
+
+#Name-input{
+   margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 5%;
+}
+
+label{
+    font-size: 30px;
+    display: block;
+}
+
+span{
+     color: red;
+}
+
+#Name{
+    height: 60px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url(./asset/user\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;
+}
+
+#father-name{
+    height: 60px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url(./asset/user\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;
+}
+
+#email-input{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 5%;
+}
+
+#your-email{
+    height: 60px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url(./asset/email\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;   
+}
+
+#enter-phone{
+    height: 60px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url(./asset/phone\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;
+}
+
+#id-input{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    gap: 5%;
+}
+
+.Enter-id{
+    height: 60px;
+    width: 550px;
+    border-radius: 20px;
+    background-image: url(./asset/id\ num\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;
+}
+
+#Date-input{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#Enter-date{
+    height: 60px;
+    width: 1200px;
+    display: block;
+    border-radius: 20px;
+    background-image: url(./asset/Date\ logo.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px center;
+    padding: 10px 10px 10px 50px;
+}
+
+
+#Address-input{
+    margin-top: 20px;
+    padding: 10px 10px 10px 10px;   
+}
+
+#Address{
+    height: 100px;
+    width: 1250px;
+    display: block;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+input::placeholder{
+    font-size: 25px;
+}
